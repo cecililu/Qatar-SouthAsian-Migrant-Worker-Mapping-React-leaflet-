@@ -3,7 +3,7 @@ import React from 'react'
 export const NavBar = () => {
   return (
     <nav className="">
-      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white flex justify-center">Qatar vs SouthAsia</h1>
+      <h1 class="mb-4 text-4xl font-extrabold ">Qatar vs SouthAsia</h1>
         <p class=" mt-5 p-6 pb-1  mx-8 text-justify mx-2 text-center  text-sm font-normal text-gray-500  ">"In the decade since Qatar successfully bid to stage the 2022 FIFA World
 Cup, reports of exploitation and labour abuse have consistently tarnished
 preparations, with workers exposed to forced labour, unpaid wages and
