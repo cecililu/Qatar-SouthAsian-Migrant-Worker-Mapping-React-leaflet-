@@ -17,7 +17,7 @@ return (
   <BrowserRouter>
     <div className='h-screen'>
       <NavBar/>
-    <div className='grid sm:grid-cols-5 lg:grid-cols-5 gap-0 '>
+    <div className='mx-12 px-12 grid sm:grid-cols-5 lg:grid-cols-5 gap-0 '>
        <div className='col-span-3'>
         <MapContainer   center={position} zoom={4} scrollWheelZoom={false}>
           <MainMap focusHandler={focusHandler} />
