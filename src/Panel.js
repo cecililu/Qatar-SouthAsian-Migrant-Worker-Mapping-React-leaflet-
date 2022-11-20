@@ -13,6 +13,10 @@ export const Panel = ({focus,focusHandler}) => {
    setdata(dataCountry)
   console.log(data[0])  
 }
+const handlercross=()=>{
+   console.log('clickde')
+   focusHandler(null)
+}
 
   useEffect(() => {
       if (focus){
@@ -21,9 +25,15 @@ export const Panel = ({focus,focusHandler}) => {
    }
  }, [focus])
  
-if (data){
+if (focus && data){
    return (
    <div>
+     <div className="p-10">
+        <button onClick={handlercross}className="w-10 h-10 rounded-full 
+                       bg-blue-500 hover:bg-red-500 text-white">
+           X
+        </button>
+</div> 
       <ul className="flex justify-evenly py-2 border-4">
           <li className='
           '>
