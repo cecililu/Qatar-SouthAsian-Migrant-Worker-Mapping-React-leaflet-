@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.leaflet-container{
+    width: 150vh;
+    height:600px;
+   
+}
+
+.cluster-marker{
+    color: blanchedalmond;
+    background-color: red;
+    border-radius: 50%;
+    width:10px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
