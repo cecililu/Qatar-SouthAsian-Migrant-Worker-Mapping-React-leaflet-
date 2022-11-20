@@ -17,13 +17,13 @@ return (
   <BrowserRouter>
     <div className='h-screen'>
       <NavBar/>
-    <div className='grid grid-cols-4 gap-0 '>
+    <div className='grid grid-cols-5 gap-0 '>
        <div className='col-span-3'>
         <MapContainer   center={position} zoom={4} scrollWheelZoom={false}>
           <MainMap focusHandler={focusHandler} />
           </MapContainer >
        </div>
-       <div className='text-white col-span-1'>   
+       <div className='text-white col-span-2'>   
         <Panel focusHandler={focusHandler} focus={countryFocus}/>
      </div>
     </div>
