@@ -28,12 +28,7 @@ const handlercross=()=>{
 if (focus && data){
    return (
    <div>
-     <div className="p-10">
-        <button onClick={handlercross}className="w-10 h-10 rounded-full 
-                       bg-blue-500 hover:bg-red-500 text-white">
-           X
-        </button>
-</div> 
+ 
       <ul className="flex justify-evenly py-2 border-4">
           <li className='
           '>
@@ -46,8 +41,12 @@ if (focus && data){
 
           </ul>
           <div className="container rounded-lg shadow-lg bg-white dark:bg-gray-700 dark:text-white pb-4">
-            <div  className='flex justify-center m-4'>
-               <span className='text-black'><span className='text-sm text-gray-500'>Official Name:</span> {data[0]['name'].official}</span>
+            <div  className='flex justify-between m-4'>
+               <span className='text-black'><span className='text-sm text-gray-500'>Official Name:</span> {data[0]['name'].official}
+               </span>
+               <button onClick={handlercross}className="w-7 h-7 rounded-full 
+                       bg-blue-500 hover:bg-red-500 text-white">X
+            </button>
             </div>
             <div className='flex justify-center m-4'>
               <img src={data[0]['flags'].png} className=" h-24 " alt='' />
