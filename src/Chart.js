@@ -57,7 +57,7 @@ export const data = {
 export function Chart() {
   return <>
   <div className='flex justify-center mt-4'>
-   <span className='text-center text-black mx-auto underline'>Death of South Asian migrant workers in World Cup 2022,Qatar was announced</span>
+   <span className='text-center text-black mx-auto underline'>Death of South Asian migrant workers in Qatar since World Cup 2022, was announced</span>
    </div>
     <div className='mx-5'>
     <Bar options={options} data={data} />;
